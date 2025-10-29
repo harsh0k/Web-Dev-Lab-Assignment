@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harsh's Portfolio</title>
+    <link
+          rel="stylesheet"
+          href="./style.css"
+        />
   </head>
   <body>
+    <main>
+    <a href="#main" id="backtotop">Back To Top</a>
     <header>
-      <a href="#main-content">Skip to main content</a>
+      <main id="main">
       <h1>Harsh Ranjan</h1>
       <nav>
         <ul>
@@ -18,22 +22,22 @@
         </ul>
       </nav>
     </header>
-
-    <main id="main-content">
+    
+    
       <section>
         <article>
           <h2>Welcome to my Portfolio</h2>
           <p>
             Hello, I'm a Web Development student and this is my very first
-            Portfolio Website
+            Portfolio Website.
           </p>
-        </article>
+        </article><hr>
       </section>
 
       <section id="about">
         <h2>About Me</h2>
         <img
-          src="WhatsApp Image 2024-07-06 at 23.44.06_790ff4b1.jpg"
+          src="assets/profile.jpg"
           height="200"
           alt="Profile Photo"
         />
@@ -41,6 +45,7 @@
           I'm Harsh Ranjan ,a passionate student learning web development and
           programming.
         </p>
+        <hr>
       </section>
 
       <section id="projects">
@@ -50,34 +55,31 @@
             <article>
               <h3>Portfolio Website</h3>
               <p>
-                <i
-                  >A personal One page Website to showcase my bio,skills and
-                  contact details</i
-                >
+                <i>A personal One page Website to showcase my bio,skills and
+                  contact details</i>
               </p>
+
             </article>
           </li>
           <li>
             <article>
               <h3>Python Calculator</h3>
               <p>
-                <i
-                  >A Python tool that calculates simple mathematics and provides
-                  accurate solution</i
-                >
+                <i>A Python tool that calculates simple mathematics and provides
+                  accurate solution</i>
               </p>
             </article>
           </li>
-        </ul>
+        </ul><hr>
       </section>
 
-      <section id="skills">
-        <h2>Technical Skills</h2>
-        <table border="2" cellpadding="8" cellspacing="0">
+      <section id="skills">        
+        <table cellpadding="8" cellspacing="0">
+          <caption>Technical Skills</caption>
           <thead>
             <tr>
-              <th>SKILL</th>
-              <th>LEVEL</th>
+              <th>Skills</th>
+              <th>Level</th>
             </tr>
           </thead>
           <tbody>
@@ -91,18 +93,18 @@
             </tr>
             <tr>
               <td>CSS</td>
-              <td>Beginner</td>
+              <td>Intermediate</td>
             </tr>
           </tbody>
         </table>
-      </section>
+      </section><hr>
 
       <section id="contact">
         <h2>Contact Me</h2>
         <form>
           <p>
             <label for="name">Name:</label>
-            <input type="text" placeholder="Type your Name" required />
+            <input type="text" placeholder="Enter your Name" required />
           </p>
           <p>
             <label for="email">Email:</label>
@@ -110,21 +112,19 @@
           </p>
           <p>
             <label for="message">Message:</label>
-            <textarea
-              type="message"
-              placeholder="Write your message here..."
-              required
-            ></textarea>
+            <textarea type="message" placeholder="Enter your message" required>
+            </textarea>
           </p>
           <p>
             <button type="submit">Send Message</button>
           </p>
         </form>
-      </section>
+      </section>      
     </main>
-
+  
     <footer>
-      <p># All rights reserved. #</p>
+      <p>© 2025 All rights reserved.</p>
     </footer>
+     
   </body>
 </html>
